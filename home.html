@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="scripts/sb_script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="/assets/icon.ico">
+  <title>TodoList</title>
+</head>
+<body>
+  <div id="main">
+    <div class="idk">
+      <div class="page-title">
+        <h1>Task List</h1>
+      </div>
+      <div class="user-write-area">
+        <div class="write-area">
+          <textarea id="inputArea" placeholder="Write your task here..."></textarea>
+        </div>
+        <div class="priority-area">
+          <label for="priority">Priority:</label>
+          <select id="priority" name="priority">
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+          </select>
+        </div>
+      </div>
+      
+      <div class="task-list">
+        <ul id="taskList">
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
